@@ -1,0 +1,73 @@
+[ {
+  "id" : 26,
+  "title" : "prime number before n",
+  "description" : "Problem title: prime number before n\n\nProblem description:\nthe code should give the output of prime numbers that come before the number n\n\nInput format:\npositive integer\n\nOutput format:\nlist of positive integers\n\nConstraints:\n1<n<=100",
+  "inputFormat" : null,
+  "outputFormat" : null,
+  "constraints" : null,
+  "createdAt" : 1794036695000,
+  "testCount" : 10,
+  "settings" : "Count: 10; Categories: NORMAL,BOUNDARY,EDGE,INVALID_INPUT,EXCEPTION",
+  "qualityScore" : 95,
+  "coverageSummary" : "{\"requirements\":[{\"id\":\"REQ-1\",\"title\":\"Prime Numbers Generation\",\"description\":\"Generate a list of all prime numbers strictly less than the given positive integer n.\"},{\"id\":\"REQ-2\",\"title\":\"Input Range Constraint\",\"description\":\"Input n must satisfy the constraint 1 < n <= 100.\"},{\"id\":\"REQ-3\",\"title\":\"Error Handling for Invalid Inputs\",\"description\":\"Handle out-of-range, non-integer, or negative inputs gracefully by throwing exceptions.\"}],\"coverageSummary\":{\"NORMAL\":2,\"BOUNDARY\":2,\"EDGE\":2,\"INVALID_INPUT\":2,\"EXCEPTION\":2},\"requirementsAnalyzed\":null,\"potentialGaps\":[\"Behavior for floating-point inputs\",\"Empty list output format specifics\"],\"warnings\":[\"Assumed n is provided as a standard integer type.\"],\"qualityScore\":95,\"qualityAudit\":{\"totalCases\":10,\"duplicateCount\":0,\"contradictionCount\":0,\"flawCount\":0,\"healthBadge\":\"EXCELLENT\",\"issues\":[],\"caseFlags\":[{\"flags\":[],\"index\":0,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":1,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":2,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":3,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":4,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":5,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":6,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":7,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":8,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":9,\"id\":null,\"hasIssues\":false}]}}"
+}, {
+  "id" : 25,
+  "title" : "multiplication table",
+  "description" : "Problem title: multiplication table\n\nProblem description:\nprint the multiplication table of a positive integer n until x10\n\nInput format:\npositive integer n\n\nOutput format:\ntable of multiplication\n\nConstraints:\nn>0 and n<100",
+  "inputFormat" : null,
+  "outputFormat" : null,
+  "constraints" : null,
+  "createdAt" : 1793981473000,
+  "testCount" : 10,
+  "settings" : "Count: 10; Categories: NORMAL,BOUNDARY,EDGE,INVALID_INPUT,EXCEPTION",
+  "qualityScore" : 95,
+  "coverageSummary" : "{\"requirements\":[{\"id\":\"REQ-1\",\"title\":\"Multiplication Table Generation\",\"description\":\"Prints multiplication table from n times 1 up to n times 10 for a given positive integer n.\"},{\"id\":\"REQ-2\",\"title\":\"Positive Integer Constraint\",\"description\":\"Input must be strictly greater than 0 and less than 100.\"}],\"coverageSummary\":{\"NORMAL\":2,\"BOUNDARY\":2,\"EDGE\":2,\"INVALID_INPUT\":2,\"EXCEPTION\":2},\"requirementsAnalyzed\":null,\"potentialGaps\":[\"Behavior on floating-point inputs is not specified.\",\"Handling of extremely large integer representations.\"],\"warnings\":[\"Assumed standard console newline separation for multiplication table output.\"],\"qualityScore\":95,\"qualityAudit\":{\"totalCases\":10,\"duplicateCount\":0,\"contradictionCount\":0,\"flawCount\":0,\"healthBadge\":\"EXCELLENT\",\"issues\":[],\"caseFlags\":[{\"flags\":[],\"index\":0,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":1,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":2,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":3,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":4,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":5,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":6,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":7,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":8,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":9,\"id\":null,\"hasIssues\":false}]}}"
+}, {
+  "id" : 23,
+  "title" : "prime number in given range",
+  "description" : "Problem title: prime number in given range\n\nProblem description:\nlist out the prime numbers in the given range of positive integers\n\nInput format:\npositive integers as lower boundary and upper boundary\n\nOutput format:\nlist positive prime integers in range\n\n",
+  "inputFormat" : null,
+  "outputFormat" : null,
+  "constraints" : null,
+  "createdAt" : 1793875608000,
+  "testCount" : 10,
+  "settings" : "Count: 10; Categories: NORMAL,BOUNDARY,EDGE,INVALID_INPUT,EXCEPTION",
+  "qualityScore" : 88,
+  "coverageSummary" : "{\"requirements\":[{\"title\":\"Core Nominal Execution\",\"id\":\"REQ-1\",\"description\":\"Process valid input correctly\"},{\"title\":\"Boundary Limits\",\"id\":\"REQ-2\",\"description\":\"Enforce threshold boundaries\"},{\"title\":\"Structural Extremes\",\"id\":\"REQ-3\",\"description\":\"Handle empty or minimal inputs\"},{\"title\":\"Input Validation\",\"id\":\"REQ-4\",\"description\":\"Reject malformed data\"}],\"coverageSummary\":{\"NORMAL\":2,\"BOUNDARY\":1,\"INVALID_INPUT\":1,\"EDGE\":1},\"requirementsAnalyzed\":null,\"potentialGaps\":[\"Concurrency safety not formally specified in problem statement.\"],\"warnings\":[\"Generated via Offline Rule-Based Heuristic Engine.\"],\"qualityScore\":88,\"qualityAudit\":{\"totalCases\":10,\"duplicateCount\":0,\"contradictionCount\":0,\"flawCount\":0,\"healthBadge\":\"EXCELLENT\",\"issues\":[],\"caseFlags\":[{\"flags\":[],\"index\":0,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":1,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":2,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":3,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":4,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":5,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":6,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":7,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":8,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":9,\"id\":null,\"hasIssues\":false}]}}"
+}, {
+  "id" : 8,
+  "title" : "The Valid Triangle Classifier",
+  "description" : "Problem title: The Valid Triangle Classifier\n\nProblem description:\nGiven three integers representing the lengths of three sides, determine if they can form a valid triangle. If they can, classify the triangle.\n\nInput format:\nlengths of sides as integers\n\nOutput format:\nOutput: Invalid, Equilateral, Isosceles, or Scalene.\n\nConstraints:\nthink about geometric constraints and boundary values.",
+  "inputFormat" : null,
+  "outputFormat" : null,
+  "constraints" : null,
+  "createdAt" : 1793204544000,
+  "testCount" : 10,
+  "settings" : "Count: 10; Categories: NORMAL,BOUNDARY,EDGE,INVALID_INPUT,EXCEPTION",
+  "qualityScore" : 95,
+  "coverageSummary" : "{\"requirements\":[{\"id\":\"REQ-1\",\"title\":\"Triangle Inequality Theorem\",\"description\":\"The sum of the lengths of any two sides must be strictly greater than the length of the remaining third side.\"},{\"id\":\"REQ-2\",\"title\":\"Equilateral Classification\",\"description\":\"All three sides must be equal in length.\"},{\"id\":\"REQ-3\",\"title\":\"Isosceles Classification\",\"description\":\"Exactly two sides must be equal in length.\"},{\"id\":\"REQ-4\",\"title\":\"Scalene Classification\",\"description\":\"All three sides must be of different lengths.\"},{\"id\":\"REQ-5\",\"title\":\"Invalid Side Lengths\",\"description\":\"Zero or negative lengths cannot form a triangle.\"}],\"coverageSummary\":{\"NORMAL\":3,\"BOUNDARY\":2,\"EDGE\":2,\"INVALID_INPUT\":2,\"EXCEPTION\":1},\"requirementsAnalyzed\":null,\"potentialGaps\":[\"Handling of extreme integer overflow for side lengths\",\"Handling of non-integer string inputs\"],\"warnings\":[\"Assumed integer input parsing handles standard decimal string representations.\"],\"qualityScore\":95,\"qualityAudit\":{\"totalCases\":10,\"duplicateCount\":0,\"contradictionCount\":0,\"flawCount\":0,\"healthBadge\":\"EXCELLENT\",\"issues\":[],\"caseFlags\":[{\"flags\":[],\"index\":0,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":1,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":2,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":3,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":4,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":5,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":6,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":7,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":8,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":9,\"id\":null,\"hasIssues\":false}]}}"
+}, {
+  "id" : 7,
+  "title" : "even odd sum",
+  "description" : "Problem title: even odd sum\n\nProblem description:\ntake an array of n size as input and sum up the odd and even numbers in the array and display the sums individually\n\nInput format:\ninteger array of size n\n\nOutput format:\neven sum as integer and odd sum as integer\n\nConstraints:\nn<=10 n>1",
+  "inputFormat" : null,
+  "outputFormat" : null,
+  "constraints" : null,
+  "createdAt" : 1792911918000,
+  "testCount" : 10,
+  "settings" : "Count: 10; Categories: NORMAL,BOUNDARY,EDGE,INVALID_INPUT,EXCEPTION",
+  "qualityScore" : 95,
+  "coverageSummary" : "{\"requirements\":[{\"id\":\"REQ-1\",\"title\":\"Even Number Sum\",\"description\":\"Sum up all even numbers in the given array of size n.\"},{\"id\":\"REQ-2\",\"title\":\"Odd Number Sum\",\"description\":\"Sum up all odd numbers in the given array of size n.\"},{\"id\":\"REQ-3\",\"title\":\"Size Constraints\",\"description\":\"Array size n must be greater than 1 and less than or equal to 10.\"}],\"coverageSummary\":{\"NORMAL\":2,\"BOUNDARY\":2,\"EDGE\":2,\"INVALID_INPUT\":2,\"EXCEPTION\":2},\"requirementsAnalyzed\":null,\"potentialGaps\":[\"Behavior when negative integers are included in the array is not explicitly defined.\",\"Handling of non-integer inputs or malformed array formats.\"],\"warnings\":[\"Assumed standard integer parsing for inputs.\",\"Assumed output format displays even sum followed by odd sum.\"],\"qualityScore\":95,\"qualityAudit\":{\"totalCases\":10,\"duplicateCount\":0,\"contradictionCount\":0,\"flawCount\":0,\"healthBadge\":\"EXCELLENT\",\"issues\":[],\"caseFlags\":[{\"flags\":[],\"index\":0,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":1,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":2,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":3,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":4,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":5,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":6,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":7,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":8,\"id\":null,\"hasIssues\":false},{\"flags\":[],\"index\":9,\"id\":null,\"hasIssues\":false}]}}"
+}, {
+  "id" : 6,
+  "title" : "nth fibonacci number",
+  "description" : "Problem title: nth fibonacci number\n\nProblem description:\ngiven a positive integer n. Find the nth fibonnacci number in the fibonacci sequence where it starts from 0 followed by 1.\n\nInput format:\na positive integer n\n\nOutput format:\nnth fibonacci number",
+  "inputFormat" : null,
+  "outputFormat" : null,
+  "constraints" : null,
+  "createdAt" : 1792780651000,
+  "testCount" : 10,
+  "settings" : "Count: 10; Categories: NORMAL,BOUNDARY,EDGE,INVALID_INPUT,EXCEPTION",
+  "qualityScore" : 95,
+  "coverageSummary" : "{\"NORMAL\":2,\"BOUNDARY\":2,\"EDGE\":2,\"INVALID_INPUT\":2,\"EXCEPTION\":2}"
+} ]
